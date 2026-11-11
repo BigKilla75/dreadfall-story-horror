@@ -18,3 +18,6 @@ dist/
 sourcemap.json
 __pycache__/
 *.pyc
+
+# Selene generated Roblox standard library cache (only if generated locally)
+roblox.yml

@@ -45,3 +45,5 @@ See [docs/13_STUDIO_ENVIRONMENT.md](docs/13_STUDIO_ENVIRONMENT.md) for Windows/M
 - .github/workflows/validate.yml builds source-only XML and runs configuration tests; it does not publish a place.
 - .devcontainer is optional VS Code/Codespaces editing/CLI environment; it cannot run the Studio GUI.
 - Start with P0-01 and confirm CI/Studio evidence before treating environment as operational.
+
+**Windows workstation update:** owner reports Roblox Studio, Rojo and Selene already installed. Selene is now pinned/configured and checked in CI. Use the local verification commands in docs/13_STUDIO_ENVIRONMENT.md; actual Studio operation remains unverified until agent runs on the Windows PC.

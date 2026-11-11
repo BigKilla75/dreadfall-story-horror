@@ -19,6 +19,13 @@
       "command": "python scripts/dev.py build",
       "group": "build",
       "problemMatcher": []
+    },
+    {
+      "label": "Signal Lost: Selene lint",
+      "type": "shell",
+      "command": "selene src",
+      "group": "test",
+      "problemMatcher": []
     }
   ]
 }

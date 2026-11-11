@@ -28,3 +28,6 @@ Claude integrates runtime and Studio scene. Codex reviews or completes one expli
 
 ## Environment checks
 Read docs/13_STUDIO_ENVIRONMENT.md. Use pinned Rojo 7.7.1 through scripts/dev.py; run python -m unittest discover -s tests -v and python scripts/dev.py build before PRs. The initial empty servePlaceIds list is an intentional protection against syncing into the wrong place. You may verify code in Codespaces, but Roblox Studio GUI tests require a Windows/Mac host. Never silently bypass this lock or claim that source CI proves 1–4-player gameplay.
+
+## Selene gate
+Run `selene src` (Roblox std, pinned 0.32.0) on each touched Luau module and note exact result; repo CI will also enforce it. Read docs/13_STUDIO_ENVIRONMENT.md for the owner-reported already-installed Windows/Studio/Rojo/Selene environment. No need to reinstall tools if version checks pass.

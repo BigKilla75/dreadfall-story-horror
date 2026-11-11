@@ -1,0 +1,3 @@
+# Strict enough for Roblox Luau and minimal enough to keep toolchain stable.
+# See: https://kampfkarren.github.io/selene/roblox.html
+std = "roblox"

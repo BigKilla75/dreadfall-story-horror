@@ -1,4 +1,5 @@
 [tools]
-# Version pinned to Rojo's official v7.7.1 release.
-# Do not update casually during the seven-day private-alpha sprint.
+# Pinned and reviewed toolchain for the 7-day private alpha.
+# Existing Windows installations need not be reinstalled if versions match.
 rojo = "rojo-rbx/rojo@7.7.1"
+selene = "Kampfkarren/selene@0.32.0"

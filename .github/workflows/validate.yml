@@ -49,6 +49,27 @@ jobs:
       - name: Verify artifact exists
         run: test -s build/SignalLost.rbxlx
 
+      - name: Install pinned official Selene 0.32.0
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p "$RUNNER_TEMP/selene"
+          curl --fail --location --retry 3 --silent --show-error \
+            "https://github.com/Kampfkarren/selene/releases/download/0.32.0/selene-0.32.0-linux.zip" \
+            --output "$RUNNER_TEMP/selene.zip"
+          unzip -q "$RUNNER_TEMP/selene.zip" -d "$RUNNER_TEMP/selene"
+          SELENE_BIN="$(find "$RUNNER_TEMP/selene" -type f -name selene -print -quit)"
+          test -n "$SELENE_BIN"
+          chmod +x "$SELENE_BIN"
+          echo "SELENE_BIN=$SELENE_BIN" >> "$GITHUB_ENV"
+
+      - name: Lint Luau with Roblox Selene standard library
+        shell: bash
+        run: |
+          set -euo pipefail
+          "$SELENE_BIN" --version
+          "$SELENE_BIN" src
+
       - name: Upload build artifact for review
         uses: actions/upload-artifact@v4
         with:

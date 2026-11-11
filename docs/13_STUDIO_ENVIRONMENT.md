@@ -73,3 +73,19 @@ https://rojo.space/docs/v7/getting-started/installation/
 https://rojo.space/docs/v7/project-format/
 https://github.com/rojo-rbx/rojo/releases/tag/v7.7.1
 https://github.com/rojo-rbx/rokit
+
+## Existing Windows workstation verified by owner report (11 Nov 2026)
+The owner reports a Windows PC with Roblox Studio, Rojo and Selene already installed. **This is owner-reported, not remotely verified.** Do not reinstall programs blindly. First run from a local PowerShell terminal in the new repo:
+```powershell
+git remote -v
+git pull --ff-only
+rojo --version
+selene --version
+python -m unittest discover -s tests -v
+selene src
+python scripts/dev.py doctor
+python scripts/dev.py build
+```
+Expected pinned versions: Rojo 7.7.1 and Selene 0.32.0. Selene's Roblox standard library is selected by `selene.toml` (`std = "roblox"`). If the already installed versions differ, check before changing the PC tooling; the repo's `rokit.toml` documents supported versions. The Rojo live-sync lock remains active until a NEW, approved experience place ID is configured. Never sync into the original Dreadfall or Feudfall places.
+
+Claude: immediately request/verify the local repo checkout, the separate Studio place and tool output; then focus on P0-01 (two-client synchronized interaction), not environment reinstall. Codex: run `selene src` on each isolated PR, report lints, review remotes and test paths. Selene lint alone does not establish runtime success.
