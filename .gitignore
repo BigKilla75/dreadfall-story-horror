@@ -1,0 +1,15 @@
+# Local tooling and build outputs only (do not blanket-ignore authored .rbxl files)
+.DS_Store
+Thumbs.db
+.env
+.env.*
+!.env.example
+build/
+out/
+dist/
+.rojo-lock
+*.log
+*.tmp
+*.bak
+.idea/
+.vscode/*.log
