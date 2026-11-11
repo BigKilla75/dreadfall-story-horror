@@ -53,3 +53,6 @@ If the 30-minute target cannot meet reliability, cut encounter count and decorat
 - Next smallest issue with owner action, if any
 
 Do not say 'fully automated' merely because code was produced. Blender/Studio modelling, publishing, physical device testing and marketing still need a connected execution environment and/or the owner.
+
+## Stable environment requirement (11 Nov 2026)
+Before editing or syncing, read docs/13_STUDIO_ENVIRONMENT.md. Rojo 7.7.1 is pinned via rokit.toml. Always run python scripts/dev.py doctor and the unittest suite, then python scripts/dev.py build. Live sync ONLY using python scripts/dev.py serve --place-id APPROVED_NEW_PLACE_ID after the owner verifies the new standalone Roblox place and adds its numeric place ID to servePlaceIds. Do not bypass the empty initial allowlist, run raw Rojo serve/upload, auto-publish or use original Roblox places. A successful GitHub Action build does not count as a Roblox Studio playtest.

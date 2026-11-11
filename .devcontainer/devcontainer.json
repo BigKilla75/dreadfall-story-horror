@@ -1,0 +1,13 @@
+{
+  "name": "Signal Lost — Roblox source development (no Studio GUI)",
+  "image": "mcr.microsoft.com/devcontainers/python:3.12-bookworm",
+  "postCreateCommand": "bash scripts/install-rojo-linux.sh",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "evaera.vscode-rojo",
+        "JohnnyMorganz.luau-lsp"
+      ]
+    }
+  }
+}

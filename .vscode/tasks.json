@@ -1,0 +1,24 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Signal Lost: Environment doctor",
+      "type": "shell",
+      "command": "python scripts/dev.py doctor",
+      "problemMatcher": []
+    },
+    {
+      "label": "Signal Lost: Run safety unit tests",
+      "type": "shell",
+      "command": "python -m unittest discover -s tests -v",
+      "problemMatcher": []
+    },
+    {
+      "label": "Signal Lost: Build Rojo place snapshot",
+      "type": "shell",
+      "command": "python scripts/dev.py build",
+      "group": "build",
+      "problemMatcher": []
+    }
+  ]
+}

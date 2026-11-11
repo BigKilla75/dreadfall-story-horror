@@ -1,0 +1,4 @@
+[tools]
+# Version pinned to Rojo's official v7.7.1 release.
+# Do not update casually during the seven-day private-alpha sprint.
+rojo = "rojo-rbx/rojo@7.7.1"

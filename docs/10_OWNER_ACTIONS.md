@@ -25,3 +25,6 @@ A GitHub commit is not a Roblox game. Agents can autonomously work when an activ
 
 ## Publishing process once alpha passes
 Owner opens the intended new Roblox place, reviews Studio assets/sync target, confirms game privacy, runs team tests, publishes private test build, completes Roblox maturity questionnaire and invites testers. Record screenshot/test result and released version. Real Robux offers remain disabled until a separate monetization approval and receipts QA.
+
+## Safe local environment setup
+See docs/13_STUDIO_ENVIRONMENT.md for the exact Rojo/Rokit/Studio installation and daily commands. Live sync starts **locked** through servePlaceIds: [] until a NEW independently verified place ID is provided. Never use the original Dreadfall or Feudfall place IDs. The optional Codespaces container runs CLI builds but cannot execute Roblox Studio GUI. GitHub Actions verifies source, not Roblox game functionality.

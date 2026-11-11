@@ -36,3 +36,12 @@ Rojo v7 project definition: default.project.json. Shared configuration: src/shar
 Owner maintains access/approves publishing and Robux products. Claude Opus leads gameplay implementation. Codex handles narrowly scoped reviews, validation, tests and isolated modules on separate branches. ChatGPT coordinates plan, review and GitHub issue acceptance. See CLAUDE.md and AGENTS.md for duties and reporting.
 
 **Repo visibility:** was PUBLIC when checked on 11 Nov 2026. Owner should choose Private in GitHub settings if source/story should stay confidential. The connected GitHub integration cannot change repository visibility.
+
+## Stable Studio/toolchain environment (added 11 Nov 2026)
+See [docs/13_STUDIO_ENVIRONMENT.md](docs/13_STUDIO_ENVIRONMENT.md) for Windows/Mac Studio setup, pinned Rojo, safety guard, test strategy and optional cloud source-development container.
+
+- rokit.toml pins Rojo 7.7.1; scripts/dev.py doctor|build|serve is the ONLY intended command entrypoint for agents.
+- default.project.json deliberately has "servePlaceIds": []: live sync is BLOCKED until the owner creates and verifies a new, standalone Roblox place and approves its numeric place ID. Do not bypass it.
+- .github/workflows/validate.yml builds source-only XML and runs configuration tests; it does not publish a place.
+- .devcontainer is optional VS Code/Codespaces editing/CLI environment; it cannot run the Studio GUI.
+- Start with P0-01 and confirm CI/Studio evidence before treating environment as operational.

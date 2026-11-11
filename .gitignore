@@ -13,3 +13,8 @@ dist/
 *.bak
 .idea/
 .vscode/*.log
+
+# Rojo generated files; snapshots in build/ are already ignored
+sourcemap.json
+__pycache__/
+*.pyc
