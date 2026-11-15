@@ -1,3 +1,5 @@
+> **UPDATE 15 NOVEMBER 2026:** This is a seven-day **relative** work plan, not an assertion that development began 11 Nov or that earlier milestones are done. Claude Opus is the sole development agent; any Codex tasks below are superseded and should be performed by Claude or omitted. Before Day 1, Claude audits current repo, new Roblox place and reusable rights-cleared assets from original Dreadfall/Feudfall in READ-ONLY mode. Original Dreadfall is postponed and must remain unchanged. Rebaseline the schedule against actual verified progress. See docs/14_ASSET_REUSE_AND_OWNERSHIP.md and AGENTS.md.
+
 # 06 — Seven-day private-alpha execution plan
 
 Start: Wed 11 November 2026. Target private test: Tue 17 / Wed 18 Nov (depends on owner availability). Not a promise of a stable public launch. Priorities P0 blocking, P1 only if all P0 gates pass.

@@ -4,7 +4,7 @@
 **Repository:** BigKilla75/dreadfall-story-horror.
 **Status (11 Nov 2026):** PREPRODUCTION SPECIFICATION + MINIMAL CODE SCAFFOLD. No gameplay, map, assets, automated tests or Roblox publish verified yet.
 
-This is a wholly separate experience/repository from the original Roblox PvPvE Dreadfall (BigKilla75/roblox-game), Feudfall (BigKilla75/revengers), and Academy. Do not edit or import anything from them without a deliberate, rights-checked plan and approval. The first seven-day target is a **private playable alpha**, not a commercial release.
+This is a wholly separate experience/repository from the original Roblox PvPvE Dreadfall (BigKilla75/roblox-game), Feudfall (BigKilla75/revengers), and Academy. Original Dreadfall development is **postponed due to complications**, not cancelled. Owner now explicitly permits **one-way copying of suitable, rights-cleared assets from original Dreadfall and Feudfall into this standalone horror game**; originals remain untouched. Follow [asset reuse policy](docs/14_ASSET_REUSE_AND_OWNERSHIP.md). The first seven-day target is a **private playable alpha**, not a commercial release.
 
 ## Product promise
 A 1–4-player cooperative sci-fi story horror experience in an abandoned signal station. A first run targets approximately 25–35 minutes, with replay through free evidence collection and small, testable scenario variations. No pay-to-win. Build tension with light, sound and misdirection, not prolonged waiting or spammed jumpscares.
@@ -33,7 +33,7 @@ Accept only if 1, 2, and 4 players can complete all three acts in a playable Rob
 Rojo v7 project definition: default.project.json. Shared configuration: src/shared/Config.luau. Client/server scripts are **placeholder bootstraps**, not a game. Open the separate Roblox Studio place, connect Rojo only after confirming place/universe identity, construct the 3D scene in Studio, and test manually. Do not publish or monetise without the owner's approval. Never commit API keys, sessions, cookies or purchased third-party assets without licenses.
 
 ## Autonomous workflow
-Owner maintains access/approves publishing and Robux products. Claude Opus leads gameplay implementation. Codex handles narrowly scoped reviews, validation, tests and isolated modules on separate branches. ChatGPT coordinates plan, review and GitHub issue acceptance. See CLAUDE.md and AGENTS.md for duties and reporting.
+Owner maintains access/approves publishing and Robux products. **Claude Opus is the sole development agent** for this horror game: design implementation, code, Studio work, testing, review, assets and integration. **No Codex involvement** unless the owner explicitly reverses this decision. GitHub Actions automated validation remains allowed. ChatGPT can maintain planning documentation on request. See CLAUDE.md, AGENTS.md and docs/14_ASSET_REUSE_AND_OWNERSHIP.md.
 
 **Repo visibility:** was PUBLIC when checked on 11 Nov 2026. Owner should choose Private in GitHub settings if source/story should stay confidential. The connected GitHub integration cannot change repository visibility.
 
@@ -47,3 +47,6 @@ See [docs/13_STUDIO_ENVIRONMENT.md](docs/13_STUDIO_ENVIRONMENT.md) for Windows/M
 - Start with P0-01 and confirm CI/Studio evidence before treating environment as operational.
 
 **Windows workstation update:** owner reports Roblox Studio, Rojo and Selene already installed. Selene is now pinned/configured and checked in CI. Use the local verification commands in docs/13_STUDIO_ENVIRONMENT.md; actual Studio operation remains unverified until agent runs on the Windows PC.
+
+## Current project direction — 15 November 2026
+Original Dreadfall is **on hold because of complications**; its source, assets, place and existing work must be preserved. The standalone horror game is the active focus. Claude Opus is the **only authorized coding/development agent**. Reuse suitable rights-cleared Dreadfall/Feudfall assets via one-way copies with provenance, compatibility checks and independent Studio tests. The seven-day plan is a target requiring a fresh baseline, not a claim of elapsed-day progress.

@@ -1,3 +1,5 @@
+> **OWNER OVERRIDE 15 NOVEMBER 2026:** Claude Opus is the sole development agent; all Codex review/implementation assignments below are cancelled. Claude handles those checks independently, supported by non-agent CI tests. Asset reuse from original Dreadfall/Feudfall is allowed by one-way, rights-cleared copies; see docs/14_ASSET_REUSE_AND_OWNERSHIP.md. The original Dreadfall is postponed, not abandoned. Audit source assets read-only before making new replacements.
+
 # 11 — Backlog and acceptance criteria
 
 Issue priorities: P0 required for private alpha, P1 post-alpha, P2 commercial beta, P3 future. Suggested owner: Claude primary runtime, Codex review/tests. Assign one module owner per issue. Mark complete only with evidence, not code generation.

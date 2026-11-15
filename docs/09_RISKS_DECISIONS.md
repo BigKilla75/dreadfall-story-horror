@@ -24,7 +24,15 @@ D06 Monetization price/product choice, after real testers confirm value.
 D07 Whether first release is invite-only private alpha vs open beta; default invite-only.
 D08 Business/account ownership and revenue split (do not assume any agent, contractor, or friend is entitled to revenue).
 D09 Target platforms; default PC and real mobile for private alpha, controller stretch.
-D10 Approval to reuse any asset from original Dreadfall; default NO cross-project copying.
+D10 **APPROVED 15 Nov 2026:** One-way reuse of suitable rights-cleared assets from BOTH original Dreadfall and Feudfall into the standalone horror game. Copy, never move or edit source; document provenance, permissions, dependencies and test results. See docs/14_ASSET_REUSE_AND_OWNERSHIP.md.
 
 ## Change protocol
 Document a proposed scope change with impact on days, risk, testing, and acceptance criteria. Require owner approval for changes affecting repo identity, funding, monetization, promises and the release scope. Mark each item PROPOSED, APPROVED, IMPLEMENTED, TESTED or RELEASED. Never conflate.
+
+## Owner decisions — 15 November 2026 (supersede earlier agent and asset policies)
+- **APPROVED:** Original Dreadfall development is postponed due to complications. Preserve its repo and Studio place; no implied cancellation, reset or permission to repair it.
+- **APPROVED:** Claude Opus / Claude Code alone develops the standalone horror game. No Codex tasks or code review. Automated CI remains allowed.
+- **APPROVED:** One-way copy of rights-cleared assets from original Dreadfall and Feudfall into the new game. Source projects are read-only; log origin/commit and verify licensing/compatibility.
+- **NOT APPROVED:** Editing or transferring ownership of original assets, copying paid/third-party assets without cross-experience rights, publishing or enabling Robux purchases.
+- **UNKNOWN:** Which source assets are usable and available; requires Claude's read-only asset audit.
+- **REBASELINE REQUIRED:** Prior 11–18 Nov sprint schedule was planning, not verified implementation progress. Claude should re-estimate from current source and Studio state.

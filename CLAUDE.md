@@ -1,15 +1,16 @@
 # Instructions for Claude Code / Opus — this repository ONLY
 
 ## Mission
-Deliver a polished, playable **private alpha** of a 1–4-player, 25–35-minute cooperative Roblox sci-fi story-horror game, within an owner-targeted seven-day sprint starting 11 Nov 2026. The first game experience is provisionally called SIGNAL LOST. Preserve design flexibility and be honest about progress. This is a new project, NOT the pre-existing PvPvE Dreadfall.
+Deliver a polished, playable **private alpha** of a 1–4-player, 25–35-minute cooperative Roblox sci-fi story-horror game, with the seven-day sprint as a planning target, to be rebaselined against actual progress as of 15 Nov 2026. The first game experience is provisionally called SIGNAL LOST. Preserve design flexibility and be honest about progress. This is a new project, NOT the pre-existing PvPvE Dreadfall.
 
 ## Hard guardrails
 - Work only in BigKilla75/dreadfall-story-horror. **Never change** BigKilla75/roblox-game, BigKilla75/revengers or any Academy project.
 - Never assume a system works, an asset exists, a Roblox Studio test passed, or the place was published unless evidence exists. Mark unknowns UNKNOWN.
-- Do not copy other Roblox games' maps, scripts, names, sounds or paid assets without rights and approval. No use of unverified Toolbox free models with scripts.
+- Original Dreadfall development is **POSTPONED**, not cancelled, abandoned, or authorized for rewriting. Feudfall is a read-only asset source, not an active task. Neither source project may be changed.
+- Owner explicitly permits **one-way reuse** of suitable assets from their original Dreadfall and Feudfall projects into this standalone horror game. See docs/14_ASSET_REUSE_AND_OWNERSHIP.md. Inspect ownership/license and source dependencies first; copy only, never move/delete/modify originals. This does NOT authorize third-party assets without redistribution rights, nor importing unsafe Toolbox scripts.
 - Protect credentials and Roblox authentication; do not commit secrets, cookies, tokens or real-world personal data.
 - Do not silently change story canon, monetization, scope, privacy or account settings. Create a proposal/issue when outside scope.
-- Owner approval required for public release, game pass/developer product creation, prices, spending Robux, ads, off-platform accounts, and significant asset imports.
+- Owner approval required for public release, game pass/developer product creation, prices, spending Robux, ads, off-platform accounts, and unlicensed or unrelated asset imports. Approved, rights-cleared one-way copies from Dreadfall and Feudfall do not need repeated case-by-case owner approval.
 - Respect Roblox policies and protect minors; avoid paid random rewards and pay-to-win mechanics.
 - If an external dependency, plugin or API is unavailable, report the blocker and implement a safe fallback. No fictional screenshots, metrics, live links or test results.
 
@@ -33,8 +34,8 @@ Owner's latest explicit instructions > this repo's current approved decisions > 
 - Avoid blocking cutscenes longer than needed; allow subtitles, camera accessibility, volume controls, photosensitivity options and mobile interaction UI.
 - Use original licensed audio and visual assets, no actual personal player voice capture.
 
-## Source ownership between agents
-Claude owns runtime module integration: SessionService, ObjectiveService, InteractionService, ThreatDirector, NarrativeDirector and Studio implementation. Codex independently reviews security, tests, code clarity, data definitions, receipts and performance; Codex may implement one clearly assigned module at a time on separate PRs. Do not both edit a shared file concurrently. Use GitHub issues as the handoff ledger.
+## Exclusive development authority (owner decision 15 Nov 2026)
+**Claude Opus / Claude Code is the sole implementation and integration agent for this standalone horror project.** Claude owns runtime code, level/Studio work, asset migration, tests, review, fixes, branches, PRs and technical decisions within the approved scope. Do not delegate this project to Codex, other coding agents, or external contractors. GitHub Actions may run automated lint/build/tests; that is not a second coding agent. ChatGPT may maintain documentation and coordinate status only at the owner's request; do not create code or implementation changes without new explicit authorization. The existing Codex-focused AGENTS.md is now a restriction notice, not a Codex work order. Original Dreadfall is postponed because of complications; do not investigate, repair, or resume it as part of this horror project.
 
 ## Prioritized work
 P0: Studio place binding, co-op state machine, stage progression, object interactions, map greybox, two puzzles, one scripted threat, ending, 1/2/4 player tests, PC/mobile checks.

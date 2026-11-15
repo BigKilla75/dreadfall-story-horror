@@ -43,3 +43,6 @@ No open world, PvP, gun combat, heavy procedural map, voice-chat dependence, man
 
 ## Definition of 'best possible'
 Prioritize stability, coherence, art direction, tension, polish and authentic tests over feature count. It's acceptable to reduce the final duration to a polished 18–25 minutes **with explicit owner signoff** if 30 minutes otherwise forces broken systems. Never silently claim a fully functional 30-minute co-op experience.
+
+## 15 November owner direction
+This horror game is now the active development focus while original Dreadfall is postponed due to complications. **Claude Opus alone** handles development. Suitable rights-cleared assets from both Dreadfall and Feudfall may be reused via read-only source inspection and one-way copy; original repositories and Roblox places remain unchanged. This is not a lore merge or permission to reuse proprietary third-party content. See docs/14_ASSET_REUSE_AND_OWNERSHIP.md.
