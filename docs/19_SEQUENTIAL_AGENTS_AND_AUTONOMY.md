@@ -1,3 +1,5 @@
+> **SUPERSEDED WORKFLOW — OWNER OVERRIDE, 15 NOVEMBER 2026:** Claude Opus / Claude Code is the **ONLY** development agent for SIGNAL LOST. Codex and all multi-agent/rotating schedules are CANCELLED. Preserve the gameplay objectives and acceptance gates below but reassign ALL implementation, testing and review to Claude. Do not start/dispatch Codex, a two-agent supervisor or the quarantined original Dreadfall controller. For current instructions read [CLAUDE.md](../CLAUDE.md), [docs/25_CLAUDE_MASTER_PROMPT.md](25_CLAUDE_MASTER_PROMPT.md) and [docs/26_CLAUDE_SOLO_OPERATIONS.md](26_CLAUDE_SOLO_OPERATIONS.md). Old text is retained only to preserve history. 
+
 # 19 — Sequential dual-agent development protocol and Windows automation specification
 STATUS: PROPOSED; NOT INSTALLED, APPROVED FOR UNATTENDED ACTIVATION, OR VERIFIED ON WINDOWS. Updated owner intent 15 Nov 2026 supersedes the earlier Claude-only restriction only for planning and for controlled Codex contribution AFTER safe handoffs are proven. Until then Claude remains the only writer.
 

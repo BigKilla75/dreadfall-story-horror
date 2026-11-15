@@ -1,70 +1,30 @@
-# Instructions for Claude Code / Opus — this repository ONLY
+# CLAUDE.md — ONE game, ONE development agent, recoverable Studio project
+
+**AUTHORITATIVE OWNER DECISION 15 NOVEMBER 2026:** This standalone horror game is now built by **Claude Opus/Claude Code ONLY**. Codex is NOT involved. No AI rotations, secondary coding agents or dual-agent handoffs. This overrides every earlier Claude/Codex plan and GitHub issue discussion.
+
+## FIRST: read and follow the full master prompt
+[docs/25_CLAUDE_MASTER_PROMPT.md](docs/25_CLAUDE_MASTER_PROMPT.md) contains the **copy/paste execution mandate**. [docs/26_CLAUDE_SOLO_OPERATIONS.md](docs/26_CLAUDE_SOLO_OPERATIONS.md) is the actual safe development procedure. [docs/22_CURRENT_STATE.md](docs/22_CURRENT_STATE.md) is a verified/unknown handoff ledger for sequential Claude sessions, not separate agents.
 
 ## Mission
-Deliver a polished, playable **private alpha** of a 1–4-player, 25–35-minute cooperative Roblox sci-fi story-horror game, with the seven-day sprint as a planning target, to be rebaselined against actual progress as of 15 Nov 2026. The first game experience is provisionally called SIGNAL LOST. Preserve design flexibility and be honest about progress. This is a new project, NOT the pre-existing PvPvE Dreadfall.
+Ship a reliable, complete 1–4-player ~25–35-minute private-alpha story-horror chapter (working title SIGNAL LOST) with one actual canonical Roblox Studio experience, synchronized multiplayer, a full beginning/ending, honest tests, Blender-original assets where worthwhile, and safe save/restore. The 14-active-workday target is a planning hypothesis and must be re-estimated after the first 3 days of actual measured progress. Planning documentation is NOT proof that a playable game exists.
 
-## Hard guardrails
-- Work only in BigKilla75/dreadfall-story-horror. **Never change** BigKilla75/roblox-game, BigKilla75/revengers or any Academy project.
-- Never assume a system works, an asset exists, a Roblox Studio test passed, or the place was published unless evidence exists. Mark unknowns UNKNOWN.
-- Original Dreadfall development is **POSTPONED**, not cancelled, abandoned, or authorized for rewriting. Feudfall is a read-only asset source, not an active task. Neither source project may be changed.
-- Owner explicitly permits **one-way reuse** of suitable assets from their original Dreadfall and Feudfall projects into this standalone horror game. See docs/14_ASSET_REUSE_AND_OWNERSHIP.md. Inspect ownership/license and source dependencies first; copy only, never move/delete/modify originals. This does NOT authorize third-party assets without redistribution rights, nor importing unsafe Toolbox scripts.
-- Protect credentials and Roblox authentication; do not commit secrets, cookies, tokens or real-world personal data.
-- Do not silently change story canon, monetization, scope, privacy or account settings. Create a proposal/issue when outside scope.
-- Owner approval required for public release, game pass/developer product creation, prices, spending Robux, ads, off-platform accounts, and unlicensed or unrelated asset imports. Approved, rights-cleared one-way copies from Dreadfall and Feudfall do not need repeated case-by-case owner approval.
-- Respect Roblox policies and protect minors; avoid paid random rewards and pay-to-win mechanics.
-- If an external dependency, plugin or API is unavailable, report the blocker and implement a safe fallback. No fictional screenshots, metrics, live links or test results.
+## Non-negotiable
+- Work only in `BigKilla75/dreadfall-story-horror`. Original Dreadfall `BigKilla75/roblox-game` is **POSTPONED**, not abandoned; Feudfall `BigKilla75/revengers` also remains unchanged; Academy stays separate. You can inspect/copy rights-cleared assets from the two originals ONE-WAY only, with ownership and compatibility evidence; never edit original repos or Studio places. Check source repo privacy versus public destination before import.
+- Do not install/reconfigure the owner's existing Windows/Rojo/Selene environment blindly; verify what's already present. Blender creation is allowed, with actual import/rights/performance checks.
+- Exactly ONE new horror Roblox experience/place, one controlled Rojo integration mapping, one primary development path. `servePlaceIds` empty means live sync intentionally LOCKED pending owner-verified new place ID; do not bypass lock. No standalone rival builds.
+- Preserve source, Studio scene and original .blend files. A Git commit does not save Studio-built geometry. Commit source, save Studio with version notes, keep a private .rbxl/.rbxlx backup, and prove reopening/restoration before declaring a gameplay milestone.
+- Every real gameplay integration requires appropriate source tests plus an actual 1/2-client canonical Studio smoke; test 4 clients on co-op changes and real devices before release. Differentiate VERIFIED, SOURCE-BUILT, STUDIO-TESTED, UNKNOWN, BLOCKED.
+- Server owns objectives and rewards; validate client inputs, distances, state, rates, duplicates and join/death/disconnect/replay. No untested scripts from Toolbox.
+- No public publish, real Robux purchases, pass/product ID creation/prices, paid ads, private account changes, fees or unattended controller activation without explicit owner permission.
+- No independent AI collaborators. Claude performs its own code review and uses deterministic CI and human playtest evidence.
+- No fictional studio access, completed Blender model, game progress, CI or model version.
+- For daily handoffs/resumption update docs/22 with exact Git SHA, matching Studio save and backup, test logs, blockers and next task.
+- Read relevant full game bible [docs/17](docs/17_SIGNAL_LOST_GAME_BIBLE.md), first three days [docs/18](docs/18_FIRST_72_HOURS.md), business [docs/20](docs/20_MONETIZATION_MARKETING_LAUNCH.md), remaining days [docs/24](docs/24_DAYS_4_TO_14.md). Older docs/19/21/23 are **HISTORICAL ONLY**, superseded.
 
-## Start-of-work routine
-1. Read README.md and all docs under docs/, especially 00, 05, 06, 07, 10, 11.
-2. Check git status, branch, newest commits and open issues/PRs. Verify repository identity and owner. Confirm that existing changes are not overwritten.
-3. Write a brief plan and identify touched paths. Choose the earliest unfinished P0 issue. Prefer 1–3 focused commits per issue.
-4. Create a feature branch, e.g. feature/p0-session-state. Include tests or clear manual reproduction criteria.
-5. Run whatever tooling is ACTUALLY installed. Record exact commands and results; do not claim Roblox Studio playtests were run if they were not.
-6. Open a PR with summary, changed files, risks, screenshots/video if captured, test matrix and any required human Studio action.
-7. Mark issue done only against acceptance criteria after owner or reviewer verification.
+## Immediate work order
+1. Verify exact branch/remote, current worktree and Roblox Studio place; identify last known-good source+scene tuple. Protect all existing uncommitted data.
+2. Prove scene save/close/reopen + backup and correct Rojo target on NEW horror place.
+3. Implement a minimal authoritative objective, two-client synchronization, one short gameplay route and stub ending in the SAME Studio game.
+4. Continue through issues by player-facing value and actual verification. Reforecast after day three. No extra planning loops when engineering can proceed safely.
 
-## Authority / design precedence
-Owner's latest explicit instructions > this repo's current approved decisions > docs/00_VISION_SCOPE.md and docs/06_ROADMAP_7_DAYS.md > issue-specific acceptance criteria > this document. Proposed features are not automatically approved or implemented. If files conflict, surface the conflict rather than choosing silently.
-
-## Build philosophy
-- Keep one small interconnected facility with modular rooms and lighting variants. Prioritize pacing, clarity and sound over polygon count.
-- One threat, heavily directed encounters, forgiving resets, deterministic server-side state. No big procedural world, no combat or expensive open-world AI in alpha.
-- Make solo possible: all cooperative mechanics have sequential solo paths; more players enable parallel solutions, not mandatory player-count locks.
-- Co-op is a real feature: all players share stage state and key events, interactions synchronize, late arrivals and disconnects do not softlock.
-- Avoid blocking cutscenes longer than needed; allow subtitles, camera accessibility, volume controls, photosensitivity options and mobile interaction UI.
-- Use original licensed audio and visual assets, no actual personal player voice capture.
-
-## Updated agent assignment (owner direction 15 Nov 2026 — supersedes Claude-only period)
-Claude Opus is the lead builder, sole Roblox Studio integrator, sole Rojo-sync operator and owner of final game stability. The owner also wants Codex contributing in SEQUENTIAL timeboxed turns, not simultaneous coding. Codex may take isolated code/test improvement tasks after a verified handoff; Codex never edits the main Studio place, controls Rojo, or operates at same time as Claude. Until an exclusive process lock, clean commit handoff and safe manual cycle are demonstrated, default to Claude development and Codex read-only audit. An unattended controller DOES NOT EXIST as a verified tool; don't assert or launch it without owner-approved safety activation.
-
-Read docs/17_SIGNAL_LOST_GAME_BIBLE.md, docs/18_FIRST_72_HOURS.md, docs/19_SEQUENTIAL_AGENTS_AND_AUTONOMY.md, docs/20_MONETIZATION_MARKETING_LAUNCH.md, docs/21_OPUS_CODEX_QUESTIONS.md and docs/22_CURRENT_STATE.md. Answer the relevant Opus questions by evidence. Source of truth: actual main SHA and Git+Studio known-good tuple, NOT old Dreadfall status/history. Studio save to Roblox with version notes, private .rbxl/.rbxlx export, reopening the place and checking contents are required for scene milestones.
-
-## Prioritized work
-P0: Studio place binding, co-op state machine, stage progression, object interactions, map greybox, two puzzles, one scripted threat, ending, 1/2/4 player tests, PC/mobile checks.
-P1: Sound design, 2–3 pretested variants, evidence journal, settings, badges.
-P2: Paid cosmetics / catalog / creator products after receipt and eligibility audit, account owners create IDs.
-P3: Additional endings, complex AI, persistence beyond basics, public matchmaking and live ops.
-
-## Stop conditions
-If the 30-minute target cannot meet reliability, cut encounter count and decorative rooms first; do not fake length with idle timers. If true 4-player progression is broken, do not release a co-op alpha. If purchases cannot be verified end-to-end, disable purchases entirely. Any zero-day critical issue blocks public release.
-
-## Required status report, once each work session
-- Verified present (commit SHA, branch, files, tested environment)
-- Done (PR/commit references)
-- Testing evidence (commands / observed Studio sessions; distinguish automated vs manual)
-- Broken/unknown
-- Next smallest issue with owner action, if any
-
-Do not say 'fully automated' merely because code was produced. Blender/Studio modelling, publishing, physical device testing and marketing still need a connected execution environment and/or the owner.
-
-## Stable environment requirement (11 Nov 2026)
-Before editing or syncing, read docs/13_STUDIO_ENVIRONMENT.md. Rojo 7.7.1 is pinned via rokit.toml. Always run python scripts/dev.py doctor and the unittest suite, then python scripts/dev.py build. Live sync ONLY using python scripts/dev.py serve --place-id APPROVED_NEW_PLACE_ID after the owner verifies the new standalone Roblox place and adds its numeric place ID to servePlaceIds. Do not bypass the empty initial allowlist, run raw Rojo serve/upload, auto-publish or use original Roblox places. A successful GitHub Action build does not count as a Roblox Studio playtest.
-
-## Existing Windows toolchain (owner-reported)
-Owner reports Windows + Rojo + Selene installed. Do not waste sprint time reinstalling. Read docs/13_STUDIO_ENVIRONMENT.md and run `rojo --version`, `selene --version`, `selene src`, Python unit tests and safe build locally. Exact pinned versions are in rokit.toml; if mismatch, report rather than blindly changing the machine. Start P0-01 after verifying correct NEW Roblox place. Report actual Studio tests separately from lint/CLI builds.
-
-## Original Blender asset creation (owner direction 15 Nov 2026)
-Claude Opus may author new original 3D meshes, modular kits, props, rigs and animations in Blender for this standalone horror project. Follow docs/16_BLENDER_ASSET_PIPELINE.md. Reuse rights-cleared Dreadfall/Feudfall assets when suitable, and create new Blender assets where this improves horror identity or reduces adaptation work. Keep Blender source files and exported Roblox-ready files in the new project only. Verify Blender and Roblox import capabilities locally; do not claim model creation or Studio import without evidence. Do not alter original source projects.
-
-## Session start / integration prompts
-See docs/23_AGENT_START_PROMPTS.md; use its Claude initial and integration handoffs. No session is automatically launched by repo documentation.
+Read docs/25 and EXECUTE the earliest unblocked task now. If Studio is inaccessible, say so and do safe source work without claiming Studio playability.

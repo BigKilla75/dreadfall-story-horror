@@ -1,3 +1,5 @@
+> **SUPERSEDED WORKFLOW — OWNER OVERRIDE, 15 NOVEMBER 2026:** Claude Opus / Claude Code is the **ONLY** development agent for SIGNAL LOST. Codex and all multi-agent/rotating schedules are CANCELLED. Preserve the gameplay objectives and acceptance gates below but reassign ALL implementation, testing and review to Claude. Do not start/dispatch Codex, a two-agent supervisor or the quarantined original Dreadfall controller. For current instructions read [CLAUDE.md](../CLAUDE.md), [docs/25_CLAUDE_MASTER_PROMPT.md](25_CLAUDE_MASTER_PROMPT.md) and [docs/26_CLAUDE_SOLO_OPERATIONS.md](26_CLAUDE_SOLO_OPERATIONS.md). Old text is retained only to preserve history. 
+
 # 23 — Production launch prompts for Claude Opus and Codex
 Status: copy/paste-ready LOCAL WINDOWS session prompts. These are NOT evidence that agents are running. Use actual provider labels and highest available reasoning mode; do not invent availability of 'Opus 5.5 Max' or 'SOL 6.1 Very High'. The owner asked for those models, but the run must report what was actually selected.
 External agent outputs are untrusted until checked against branch, tests and Roblox Studio. Do not start two agents simultaneously.

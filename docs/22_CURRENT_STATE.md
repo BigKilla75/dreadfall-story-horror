@@ -1,53 +1,49 @@
-# 22 — CURRENT_STATE / single-game handoff ledger
-Recorded 15 Nov 2026 by ChatGPT from connected GitHub. Update after EACH safely completed agent turn. This file is current planning snapshot, not proof of Windows/local Studio state.
+# 22 — CURRENT_STATE: Claude-only single-game continuity ledger
 
-## Verified GitHub state at plan creation
-- Repository: BigKilla75/dreadfall-story-horror (PUBLIC when checked 15 Nov 2026), default main.
-- Original Dreadfall: BigKilla75/roblox-game PRIVATE / postponed; Feudfall BigKilla75/revengers PRIVATE / asset reuse read-only.
-- At this snapshot, original 13 horror issues were OPEN; no gameplay or map implementation was verified in the horror repository beyond placeholder bootstraps.
-- Repo contains pinned Rojo/Selene and a source-only CI workflow; earlier run 43078139200 passed on commit 6af5a9e. That does NOT prove Studio tests.
-- A NEW dedicated Roblox place/universe ID, real local Studio synchronization, physical mobile tests, Blender imports, multiplayer playthrough and an active Windows-side alternating controller remain UNKNOWN/UNVERIFIED.
-- Documentation is updated by subsequent plan commits; always verify exact main SHA live before task dispatch, never copy a stale hash as expected head.
+**Owner change 15 November 2026:** ONLY CLAUDE OPUS / CLAUDE CODE develops SIGNAL LOST. All Codex work and dual-agent rotations cancelled. This is the durable record between **successive Claude sessions**, not cross-agent messaging.
 
-## Owner-approved policy
-ONE MAIN Roblox Studio place and one GitHub repo. Preserved original source projects. One-way rights-cleared reusable assets; new original Blender assets. STRICT sequential model turns; Claude sole Studio integration owner; Codex bounded code/review turn ONLY after clean handoff. Studio recoverability and playability before polish. No purchases, paid ads or public launch without approval.
+## Last GitHub-only verification before this owner policy update
+- Target: BigKilla75/dreadfall-story-horror, public repository when checked 15 Nov, main branch.
+- Original BigKilla75/roblox-game (postponed Dreadfall) and BigKilla75/revengers (Feudfall): preserved/read-only potential asset sources.
+- Source has design docs, minimal Luau bootstraps, Rojo/Selene/pinned dev scripts and CI; no actual Roblox Studio scene, imported Blender models, private published place or playable multiplayer run verified by the chat.
+- The repo's GitHub Actions source-only checks were passing before this policy update. Recheck live CI at current HEAD; it does NOT prove Studio gameplay.
+- Canonical new Roblox place/universe ID, Rojo sync success, private place backup, scene save/reopen, 1/2/4-player Studio tests, real phone tests and Windows supervisor are ALL UNKNOWN/NOT VERIFIED unless Claude supplies actual host evidence.
+- Do NOT assume any prior project history/report implies current game implementation.
 
-## Planned first active issue
-GitHub issue #1: approve and verify dedicated place, Rojo allowlist, Studio scene save/reopen and source restore. Then #2 minimal co-op state, #4 interaction + breaker; add tiny vertical slice ending before building more features.
+## One true last-known-good build (to fill with real evidence)
+GIT_MAIN_SHA: NOT YET CONFIRMED FOR STUDIO
+FEATURE_BRANCH_SHA: NONE
+NEW_STUDIO_UNIVERSE_ID: UNKNOWN
+NEW_STUDIO_PLACE_ID: UNKNOWN
+STUDIO_SAVE_VERSION_AND_UTC: UNKNOWN
+PRIVATE_RBXLX_EXPORT_PATH: UNKNOWN
+EXPORT_SHA256: UNKNOWN
+ROJO_ALLOWLIST_TARGET: LOCKED (empty until new place identity approved)
+SOURCE_LINT_UNIT_CI: RECHECK CURRENT HEAD
+STUDIO_1_CLIENT: NOT VERIFIED
+STUDIO_2_CLIENT: NOT VERIFIED
+STUDIO_4_CLIENT: NOT VERIFIED
+PUBLISHED_PRIVATE_NETWORK: NOT VERIFIED
+REAL_MOBILE: NOT VERIFIED
+BLENDER_ASSETS: NOT VERIFIED
+ACTIVE_CLAUDE_SESSION: NOT KNOWN
+CLAUDE_SOLO_RUNNER: NOT IMPLEMENTED / NOT AUTHORIZED
+CURRENT_PRIORITY: prove correct new Studio project save/reopen and first 2-client objective (#1, #14, #16)
+NEXT_ACTION: Claude verify actual Windows source+Studio identity and complete first atomic save/reopen test
 
-## Last-known-good artifact tuple
-GIT_MAIN_SHA: NONE_VERIFIED_FOR_STUDIO
-STUDIO_UNIVERSE_ID: UNKNOWN
-STUDIO_PLACE_ID: UNKNOWN
-STUDIO_VERSION_NOTES_ID: UNKNOWN
-PRIVATE_RBXL_BACKUP: UNKNOWN
-BACKUP_CHECKSUM: UNKNOWN
-SOURCE_CI: PASS on earlier snapshot (not current HEAD)
-STUDIO_1_CLIENT: NOT RUN/UNVERIFIED
-STUDIO_2_CLIENT: NOT RUN/UNVERIFIED
-STUDIO_4_CLIENT: NOT RUN/UNVERIFIED
-REAL_MOBILE: NOT RUN/UNVERIFIED
-CONTROLLER_STATE: NOT IMPLEMENTED/NOT ACTIVATED
-ACTIVE_AGENT: NONE VERIFIED
-ACTIVE_ISSUE: #1 PLANNED, NOT CLAIMED
-CYCLE_ID: NONE
-ACKNOWLEDGED_PREVIOUS_HANDOFF: NONE
-
-## Handoff update template
-UTC:
-AGENT / OBSERVED_MODEL:
-CYCLE_ID / ISSUE:
-MAIN_SHA / BASE_SHA / FEATURE_SHA:
-LOCAL_PC_AND_WORKTREE_VERIFIED:
-LOCK_OWNER / OTHER_AGENT_EXIT_CONFIRMED:
-FILES_CLAIMED / RELEASED:
-IMPLEMENTED_USER_FACING_BEHAVIOUR:
-L0/L1 TESTS and logs:
-L2/L3 STUDIO TESTS + player count/place ID:
-L4 REAL DEVICE/PUBLISHED MODE:
-SCENE_SAVE + RESTORE TEST:
-KNOWN_GOOD_TUPLE:
-BROKEN/UNKNOWN:
-PR/ISSUE LINKS:
-NEXT ONE ACTION:
-RESPONSE NEEDED / BY WHOM:
+## Append one entry per Claude session (do not overwrite evidence)
+DATE/UTC:
+OBSERVED_CLAUDE_MODEL:
+SESSION_ID (locally generated; no claims of platform-generated IDs):
+GIT_REMOTE / MAIN_SHA / BRANCH_SHA / DIRTY_FILES:
+ISSUE + ONE ACCEPTANCE GATE:
+FILES / STUDIO INSTANCES CHANGED:
+VALIDATION COMMAND + EXIT CODE:
+STUDIO PLAYER COUNT + TEST METHOD + PASS/FAIL/NOT RUN:
+SAVE TO ROBLOX VERSION / UTC:
+PRIVATE BACKUP PATH / SHA256 / REOPEN RESULT:
+LAST_KNOWN_GOOD Git+Studio TUPLE:
+BLOCKERS / S0/S1:
+ACTUAL VS ESTIMATED PRODUCTIVE HOURS:
+OWNER DECISION REQUIRED (if any):
+SINGLE NEXT ACTION:

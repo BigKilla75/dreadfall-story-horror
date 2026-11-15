@@ -1,3 +1,5 @@
+> **SUPERSEDED WORKFLOW — OWNER OVERRIDE, 15 NOVEMBER 2026:** Claude Opus / Claude Code is the **ONLY** development agent for SIGNAL LOST. Codex and all multi-agent/rotating schedules are CANCELLED. Preserve the gameplay objectives and acceptance gates below but reassign ALL implementation, testing and review to Claude. Do not start/dispatch Codex, a two-agent supervisor or the quarantined original Dreadfall controller. For current instructions read [CLAUDE.md](../CLAUDE.md), [docs/25_CLAUDE_MASTER_PROMPT.md](25_CLAUDE_MASTER_PROMPT.md) and [docs/26_CLAUDE_SOLO_OPERATIONS.md](26_CLAUDE_SOLO_OPERATIONS.md). Old text is retained only to preserve history. 
+
 # 18 — FIRST THREE DAYS (72 CLOCK HOURS): staged acceleration and forecast control
 Date written: 15 Nov 2026. Timeline is a first-three-calendar-day plan with **~8–12 productive work hours per day**, NOT 72 consecutive active model-hours, 24/7 access or a claim of previous progress. Days assume ~8–12 productive host hours each; extend if tests/quotas/Studio access prevent safe execution. Day 3 gate decides if 14-day private alpha remains plausible. No public shipping commitment.
 

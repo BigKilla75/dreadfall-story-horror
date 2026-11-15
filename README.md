@@ -24,7 +24,7 @@ A 1–4-player cooperative sci-fi story horror experience in an abandoned signal
 12. [Work breakdown](docs/11_BACKLOG.md)
 13. [References](docs/12_REFERENCES.md)
 
-AI-agent instructions: [CLAUDE.md](CLAUDE.md) for Claude Code and [AGENTS.md](AGENTS.md) for Codex. New 15 Nov sequential-turn instructions supersede historical Claude-only language.
+Agent instructions: [CLAUDE.md](CLAUDE.md) and [AGENTS.md](AGENTS.md) both enforce the current Claude-only directive. New 15 Nov sequential-turn instructions supersede historical Claude-only language.
 
 ## First milestone: private alpha
 Accept only if 1, 2, and 4 players can complete all three acts in a playable Roblox place without softlocks; everyone can interact, recover after death/disconnect as specified; there is a complete ending; and PC + at least one real mobile playtest have passed. No claim of success from code generation alone.
@@ -32,21 +32,21 @@ Accept only if 1, 2, and 4 players can complete all three acts in a playable Rob
 ## Source and tooling
 Rojo v7 project definition: default.project.json. Shared configuration: src/shared/Config.luau. Client/server scripts are **placeholder bootstraps**, not a game. Open the separate Roblox Studio place, connect Rojo only after confirming place/universe identity, construct the 3D scene in Studio, and test manually. Do not publish or monetise without the owner's approval. Never commit API keys, sessions, cookies or purchased third-party assets without licenses.
 
-## Production system — sequential agents, ONE game
-Claude Opus is the lead and ONLY Studio/Rojo integration operator. Codex is a tightly controlled second code/test contributor through timed, non-overlapping shifts after exact-source handoff; it never creates a parallel playable game. Manual sequential handoffs are allowed after safety checks; unattended automatic dispatch remains UNVERIFIED and must not be activated without explicit owner approval and demonstrated crash/quota/save/reopen safety.
-Keep ONE canonical Roblox universe/place, one Rojo integration checkout and one last-known-good pair of Git commit + Roblox Studio backup. All Studio scene changes must be saved to Roblox with version notes, exported to private backups and reopened for verification. Git-only files and Studio-authored objects are separately protected. No session is "complete" without game smoke tests.
+## CURRENT DEVELOPMENT DIRECTIVE — CLAUDE ONLY (15 November 2026)
 
-**Current master plan (15 Nov 2026):**
-- [Game-design bible](docs/17_SIGNAL_LOST_GAME_BIBLE.md)
-- [First 72 active development hours](docs/18_FIRST_72_HOURS.md)
-- [Sequential agent handoff and safe autonomy](docs/19_SEQUENTIAL_AGENTS_AND_AUTONOMY.md)
+**Claude Opus / Claude Code is now the sole development agent. Codex has been removed at the owner's request.** This supersedes all previously proposed Claude/Codex shifts, handoffs, separate worktrees and controller dispatch. The original dual-agent planning files are preserved as history, not active instructions.
+
+**Start here:** [Claude master prompt](docs/25_CLAUDE_MASTER_PROMPT.md) → [Single-agent operations and recovery](docs/26_CLAUDE_SOLO_OPERATIONS.md) → [Current state](docs/22_CURRENT_STATE.md).
+
+The one-game invariant remains: ONE new Roblox universe/place, ONE approved Rojo integration target, source in Git plus independently verified Studio scene saves/backups, 1/2/4-player smoke and regression tests. The original Dreadfall and Feudfall repositories are READ-ONLY asset/research candidates, not alternate games.
+
+- [Comprehensive game bible](docs/17_SIGNAL_LOST_GAME_BIBLE.md)
+- [First three active development days](docs/18_FIRST_72_HOURS.md) — old multi-agent rows superseded
+- [14-day private-alpha production path](docs/24_DAYS_4_TO_14.md) — Claude owns all tasks
 - [Monetization, marketing and launch](docs/20_MONETIZATION_MARKETING_LAUNCH.md)
-- [Questions for Claude Opus and Codex](docs/21_OPUS_CODEX_QUESTIONS.md)
-- [Current verified state / handoff](docs/22_CURRENT_STATE.md)
-- [Copy/paste Claude/Codex local launch prompts](docs/23_AGENT_START_PROMPTS.md)
-- [Private-alpha workdays 4–14](docs/24_DAYS_4_TO_14.md)
+- [Technical challenges for Claude](docs/25_CLAUDE_MASTER_PROMPT.md#11-claudes-own-high-reasoning-challenge-questions)
 
-**Repo visibility:** was PUBLIC when checked on 11 Nov 2026. Owner should choose Private in GitHub settings if source/story should stay confidential. The connected GitHub integration cannot change repository visibility.
+**Repo visibility:** was PUBLIC when checked on 15 Nov 2026. Owner should choose Private in GitHub settings if source/story should stay confidential. The connected GitHub integration cannot change repository visibility.
 
 ## Stable Studio/toolchain environment (added 11 Nov 2026)
 See [docs/13_STUDIO_ENVIRONMENT.md](docs/13_STUDIO_ENVIRONMENT.md) for Windows/Mac Studio setup, pinned Rojo, safety guard, test strategy and optional cloud source-development container.
