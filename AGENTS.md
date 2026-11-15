@@ -21,3 +21,6 @@ Until handoff safety is locally validated, Codex mode = read-only source audit a
 - Feudfall preserved; owner permits rights-cleared one-way asset copies from both older projects; scripts/assets must be provenance-checked. See docs/14–16.
 - No public game launch, purchases, paid subscriptions, real product creation, ads, new secrets or unsafe third-party assets without owner approval.
 - Source tests and CI do not prove Roblox Studio gameplay. GitHub messages do not wake or notify other agents.
+
+## Ready-to-use scoped turn prompt
+Use the Codex launch prompt in docs/23_AGENT_START_PROMPTS.md only AFTER an exclusive handoff is verified and Claude has exited.
