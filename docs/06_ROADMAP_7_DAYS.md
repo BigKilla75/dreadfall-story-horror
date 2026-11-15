@@ -1,3 +1,5 @@
+> **15 NOV OWNER UPDATE:** This earlier day-by-day design remains historical planning. Updated execution priority is docs/17–22, including a 14-active-day private-alpha planning horizon, fully detailed first 3 days and STRICT sequential Claude/Codex turns. Claude owns only Studio integration. Do not treat earlier Claude-only/Codex-task statements or fixed 11–18 Nov dates as current permission or verified progress. Any unattended controller remains blocked pending canary and owner activation.
+
 > **UPDATE 15 NOVEMBER 2026:** This is a seven-day **relative** work plan, not an assertion that development began 11 Nov or that earlier milestones are done. Claude Opus is the sole development agent; any Codex tasks below are superseded and should be performed by Claude or omitted. Before Day 1, Claude audits current repo, new Roblox place and reusable rights-cleared assets from original Dreadfall/Feudfall in READ-ONLY mode. Original Dreadfall is postponed and must remain unchanged. Rebaseline the schedule against actual verified progress. See docs/14_ASSET_REUSE_AND_OWNERSHIP.md and AGENTS.md.
 
 # 06 — Seven-day private-alpha execution plan

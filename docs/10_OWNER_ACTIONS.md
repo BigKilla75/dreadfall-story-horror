@@ -30,7 +30,7 @@ Owner opens the intended new Roblox place, reviews Studio assets/sync target, co
 See docs/13_STUDIO_ENVIRONMENT.md for the exact Rojo/Rokit/Studio installation and daily commands. Live sync starts **locked** through servePlaceIds: [] until a NEW independently verified place ID is provided. Never use the original Dreadfall or Feudfall place IDs. The optional Codespaces container runs CLI builds but cannot execute Roblox Studio GUI. GitHub Actions verifies source, not Roblox game functionality.
 
 ## Owner decisions already granted (15 Nov 2026)
-- Claude Opus is the only development agent for this standalone horror game. Do not ask Codex to review/implement unless owner reverses the decision.
+- HISTORICAL (superseded later on 15 Nov): Claude Opus was sole developer. Owner subsequently requested sequential Opus/Codex coding turns with Claude exclusive Studio integration. Codex only works after safe committed handoff; unattended controller activation remains separate owner-gated action. See docs/19.
 - Original Dreadfall development is postponed due to complications. Do not modify its source or Studio place; Feudfall also stays untouched.
 - Claude may reuse suitable rights-cleared assets from both source projects through **one-way copying** into the horror project. No per-asset reapproval needed when rights and provenance are clear; do not import uncertain third-party licenses or untrusted scripts.
 - Existing Windows Studio/Rojo/Selene installation is owner-reported. Do not reinstall blindly.
