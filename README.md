@@ -50,3 +50,6 @@ See [docs/13_STUDIO_ENVIRONMENT.md](docs/13_STUDIO_ENVIRONMENT.md) for Windows/M
 
 ## Current project direction — 15 November 2026
 Original Dreadfall is **on hold because of complications**; its source, assets, place and existing work must be preserved. The standalone horror game is the active focus. Claude Opus is the **only authorized coding/development agent**. Reuse suitable rights-cleared Dreadfall/Feudfall assets via one-way copies with provenance, compatibility checks and independent Studio tests. The seven-day plan is a target requiring a fresh baseline, not a claim of elapsed-day progress.
+
+## Original Blender assets
+Claude Opus may create new custom 3D assets in Blender as well as reuse rights-cleared source-project assets. See [Blender asset pipeline](docs/16_BLENDER_ASSET_PIPELINE.md). New assets must be independently stored, optimized and tested in the standalone Roblox place. No Blender meshes have been created or imported by this documentation change.

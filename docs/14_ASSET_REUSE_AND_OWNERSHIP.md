@@ -45,3 +45,6 @@ Source references (owner-associated, inspect and confirm):
 
 ## Evidence and reporting
 Before coding: produce a READ-ONLY inventory of candidate assets and exact source evidence, without modifying source projects. Then copy small verified batches to destination. For each batch report original path/ref, destination, rights/compatibility result, test result and any unresolved license/Roblox ID blocker. No claim that assets are imported merely because the owner approved reuse.
+
+## Blender-original alternative
+The owner also approves new, original Blender assets authored by Claude Opus for this game. Use Blender when no suitable rights-cleared asset exists or a signature horror design needs its own look. New assets are not source-project copies; track them separately using docs/16_BLENDER_ASSET_PIPELINE.md. Never modify Dreadfall/Feudfall originals.

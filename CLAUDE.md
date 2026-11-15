@@ -60,3 +60,6 @@ Before editing or syncing, read docs/13_STUDIO_ENVIRONMENT.md. Rojo 7.7.1 is pin
 
 ## Existing Windows toolchain (owner-reported)
 Owner reports Windows + Rojo + Selene installed. Do not waste sprint time reinstalling. Read docs/13_STUDIO_ENVIRONMENT.md and run `rojo --version`, `selene --version`, `selene src`, Python unit tests and safe build locally. Exact pinned versions are in rokit.toml; if mismatch, report rather than blindly changing the machine. Start P0-01 after verifying correct NEW Roblox place. Report actual Studio tests separately from lint/CLI builds.
+
+## Original Blender asset creation (owner direction 15 Nov 2026)
+Claude Opus may author new original 3D meshes, modular kits, props, rigs and animations in Blender for this standalone horror project. Follow docs/16_BLENDER_ASSET_PIPELINE.md. Reuse rights-cleared Dreadfall/Feudfall assets when suitable, and create new Blender assets where this improves horror identity or reduces adaptation work. Keep Blender source files and exported Roblox-ready files in the new project only. Verify Blender and Roblox import capabilities locally; do not claim model creation or Studio import without evidence. Do not alter original source projects.
