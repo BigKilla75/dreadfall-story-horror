@@ -44,6 +44,7 @@ Keep ONE canonical Roblox universe/place, one Rojo integration checkout and one 
 - [Questions for Claude Opus and Codex](docs/21_OPUS_CODEX_QUESTIONS.md)
 - [Current verified state / handoff](docs/22_CURRENT_STATE.md)
 - [Copy/paste Claude/Codex local launch prompts](docs/23_AGENT_START_PROMPTS.md)
+- [Private-alpha workdays 4–14](docs/24_DAYS_4_TO_14.md)
 
 **Repo visibility:** was PUBLIC when checked on 11 Nov 2026. Owner should choose Private in GitHub settings if source/story should stay confidential. The connected GitHub integration cannot change repository visibility.
 
