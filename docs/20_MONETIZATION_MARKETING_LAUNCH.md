@@ -1,3 +1,5 @@
+> **ARCHIVED — 17 NOV 2026:** Retired SIGNAL LOST story/workflow/monetisation only. **NOT ACTIVE.** Current game is OPERATION BLACK SKY; do not implement the Echo, Relay Nine, sci-fi puzzles or Codex tasks. Follow [README](../README.md), [Black Sky bible](27_OPERATION_BLACK_SKY_MASTER_PLAN.md) and [Claude's current prompt](34_CLAUDE_BLACK_SKY_MASTER_PROMPT.md). Original text retained below as history.
+
 # 20 — Monetization, growth, marketing, publishing and live-ops blueprint
 STATUS: Owner-requested commercial plan, not price or spend approval. Do NOT enable purchases, paid advertising or public access before explicit owner authorization and verified Roblox requirements. All figures below are proposed hypotheses, not revenue forecasts.
 

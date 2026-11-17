@@ -1,3 +1,5 @@
+> **ARCHIVED — 17 NOV 2026:** Retired SIGNAL LOST story/workflow/monetisation only. **NOT ACTIVE.** Current game is OPERATION BLACK SKY; do not implement the Echo, Relay Nine, sci-fi puzzles or Codex tasks. Follow [README](../README.md), [Black Sky bible](27_OPERATION_BLACK_SKY_MASTER_PLAN.md) and [Claude's current prompt](34_CLAUDE_BLACK_SKY_MASTER_PROMPT.md). Original text retained below as history.
+
 # 17 — SIGNAL LOST: integrated game-design bible (owner-requested plan, 15 Nov 2026)
 
 STATUS: PROPOSED DESIGN / NOT IMPLEMENTED. This expands, rather than discards, docs/00–16. The working title, names, prices and marketing dates require owner's final approval. Existing Dreadfall is postponed; it is NOT the source game for this IP. Feudfall and original Dreadfall are READ-ONLY source candidates for licensed/owned asset copying, never dependencies.

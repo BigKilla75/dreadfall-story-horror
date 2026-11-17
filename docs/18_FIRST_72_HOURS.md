@@ -1,3 +1,5 @@
+> **ARCHIVED — 17 NOV 2026:** Retired SIGNAL LOST story/workflow/monetisation only. **NOT ACTIVE.** Current game is OPERATION BLACK SKY; do not implement the Echo, Relay Nine, sci-fi puzzles or Codex tasks. Follow [README](../README.md), [Black Sky bible](27_OPERATION_BLACK_SKY_MASTER_PLAN.md) and [Claude's current prompt](34_CLAUDE_BLACK_SKY_MASTER_PROMPT.md). Original text retained below as history.
+
 > **SUPERSEDED WORKFLOW — OWNER OVERRIDE, 15 NOVEMBER 2026:** Claude Opus / Claude Code is the **ONLY** development agent for SIGNAL LOST. Codex and all multi-agent/rotating schedules are CANCELLED. Preserve the gameplay objectives and acceptance gates below but reassign ALL implementation, testing and review to Claude. Do not start/dispatch Codex, a two-agent supervisor or the quarantined original Dreadfall controller. For current instructions read [CLAUDE.md](../CLAUDE.md), [docs/25_CLAUDE_MASTER_PROMPT.md](25_CLAUDE_MASTER_PROMPT.md) and [docs/26_CLAUDE_SOLO_OPERATIONS.md](26_CLAUDE_SOLO_OPERATIONS.md). Old text is retained only to preserve history. 
 
 # 18 — FIRST THREE DAYS (72 CLOCK HOURS): staged acceleration and forecast control

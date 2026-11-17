@@ -1,3 +1,5 @@
+> **17 NOV 2026 — OPERATION BLACK SKY:** Technical safety, source-preservation and rights-checking instructions remain relevant where consistent with the [current Black Sky master plan](27_OPERATION_BLACK_SKY_MASTER_PLAN.md). SIGNAL LOST-specific environment, story, old assets and Codex workflows below are HISTORICAL; no asset listed is automatically approved/imported into this game. See [Claude's active prompt](34_CLAUDE_BLACK_SKY_MASTER_PROMPT.md).
+
 # 14 — Approved cross-project asset reuse & exclusive development (owner decision 15 Nov 2026)
 
 ## Authority
