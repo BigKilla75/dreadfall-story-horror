@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Local, guarded Rojo operations for the standalone Signal Lost Roblox place.
+"""Local, guarded Rojo operations for the standalone Operation Black Sky Roblox place.
 
 Requires Python 3.10+ and pinned Rojo 7.7.1.
 This script NEVER publishes, uploads, or modifies Roblox account settings.
@@ -53,7 +53,7 @@ def allowed_place_ids(project: dict) -> list[int]:
 
 
 def validate_project(project: dict) -> None:
-    if project.get("name") != "SignalLost":
+    if project.get("name") != "OperationBlackSky":
         raise SetupError("Unexpected project name; refusing to work on a different place")
     if project.get("tree", {}).get("$className") != "DataModel":
         raise SetupError("This must remain a DataModel place project")
@@ -116,7 +116,7 @@ def build() -> int:
     project = load_project()
     validate_project(project)
     binary = rojo_path()
-    output = ROOT / "build" / "SignalLost.rbxlx"
+    output = ROOT / "build" / "OperationBlackSky.rbxlx"
     output.parent.mkdir(parents=True, exist_ok=True)
     print(f"Building source-only place snapshot: {output}")
     result = subprocess.run(
@@ -155,7 +155,7 @@ def serve(place_id: int) -> int:
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="Safe Signal Lost Rojo environment")
+    parser = argparse.ArgumentParser(description="Safe Operation Black Sky Rojo environment")
     commands = parser.add_subparsers(dest="command", required=True)
     commands.add_parser("doctor", help="Validate mappings, tool version and sync lock")
     commands.add_parser("build", help="Make a local .rbxlx snapshot (not publish)")

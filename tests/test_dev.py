@@ -13,6 +13,14 @@ import dev  # noqa: E402
 
 
 class ProjectSafetyTests(unittest.TestCase):
+    def test_black_sky_identity_and_locked_sync(self):
+        project = dev.load_project()
+        self.assertEqual(project["name"], "OperationBlackSky")
+        self.assertEqual(project["servePlaceIds"], [])
+        config = (ROOT / "src" / "shared" / "Config.luau").read_text(encoding="utf-8")
+        self.assertIn('WorkingTitle = "Operation Black Sky"', config)
+        self.assertIn("LivePurchasesEnabled = false", config)
+
     def test_project_structure_and_guard(self):
         project = dev.load_project()
         dev.validate_project(project)

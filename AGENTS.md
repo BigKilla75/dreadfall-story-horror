@@ -1,13 +1,3 @@
-# AGENTS.md — Claude-only agent instruction
-
-**Current owner directive (15 November 2026): SIGNAL LOST is a CLAUDE OPUS / CLAUDE CODE ONLY development project.**
-
-Codex, GPT coding agents, subagents acting as independent implementers or reviewers, and automated cross-agent dispatch are not authorized for this repository. Do not create or initiate Codex tasks, branches or reviews. A future change requires a NEW explicit owner decision.
-
-Claude is sole implementation, Studio/Rojo integration, Blender creation, debugging, security analysis and QA agent. GitHub Actions is allowed to run deterministic checks; humans may playtest. Any optional single-Claude unattended scheduler remains disabled until safety verified and separately authorized.
-
-First read CLAUDE.md, docs/25_CLAUDE_MASTER_PROMPT.md, docs/26_CLAUDE_SOLO_OPERATIONS.md, docs/22_CURRENT_STATE.md and task-relevant game-design docs. Keep ONE new canonical Studio experience and prove save/reopen, source recovery and smoke tests; no competing projects.
-
-BigKilla75/roblox-game (postponed original Dreadfall) and BigKilla75/revengers (Feudfall) are READ-ONLY asset/research sources. Only rights-cleared ONE-WAY copying to BigKilla75/dreadfall-story-horror, no source modifications or old-place sync. Academy remains unrelated.
-
-Never claim source CI = Studio gameplay. No public release, purchases, account changes, external spend or unattended controller activation without the owner's permission. See docs/25 for all engineering, security, gameplay and monetization constraints.
+# AGENTS — OPERATION BLACK SKY
+Owner instruction 17 November 2026: current game = OPERATION BLACK SKY; **Claude Opus/Claude Code solely implements**, no Codex. See README.md, CLAUDE.md, docs/27–35, current ledger docs/22 and safe working protocol docs/26. Old SIGNAL LOST story, Echo, Relay Nine and Codex instructions in docs/00–21,23–25 are archived.
+Only change BigKilla75/dreadfall-story-horror. Original Dreadfall BigKilla75/roblox-game and Feudfall BigKilla75/revengers are READ ONLY; Academy unrelated. One NEW Studio experience; servePlaceIds [] prevents live sync until owner-approved ID. Source CI does not prove Studio map; require saved scene, private backup and reopen, 1/2/4 players and mobile tests. Fair grounded blackout fiction, original fictional radio, server-owned supplies/GBP cash/looter/mission, no BBC imitation. No public release, purchases, paid ads, asset licensing exposure or autonomous controller without owner approval. Log real evidence; preserve previous work.

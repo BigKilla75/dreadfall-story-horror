@@ -1,4 +1,4 @@
-name: Validate standalone Roblox source
+name: Validate Operation Black Sky source
 
 on:
   push:
@@ -47,7 +47,7 @@ jobs:
         run: python scripts/dev.py build
 
       - name: Verify artifact exists
-        run: test -s build/SignalLost.rbxlx
+        run: test -s build/OperationBlackSky.rbxlx
 
       - name: Install pinned official Selene 0.32.0
         shell: bash
@@ -70,10 +70,10 @@ jobs:
           "$SELENE_BIN" --version
           "$SELENE_BIN" src
 
-      - name: Upload build artifact for review
+      - name: Upload source-only build artifact (NOT the Studio game)
         uses: actions/upload-artifact@v4
         with:
-          name: SignalLost-rojo-build
-          path: build/SignalLost.rbxlx
+          name: OperationBlackSky-rojo-build
+          path: build/OperationBlackSky.rbxlx
           if-no-files-found: error
           retention-days: 7

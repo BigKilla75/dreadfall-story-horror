@@ -1,5 +1,5 @@
 --!strict
--- PLACEHOLDER: does not implement HUD, atmosphere, input or co-op.
+-- PLACEHOLDER ONLY: no inventory, HUD, blackout visuals, radio or gameplay implemented.
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local Config = require(ReplicatedStorage:WaitForChild("Shared"):WaitForChild("Config"))
-print("[SignalLost] Client bootstrap scaffold loaded:", Config.WorkingTitle)
+print("[OperationBlackSky] Client scaffold loaded:", Config.WorkingTitle)

@@ -1,5 +1,5 @@
 --!strict
--- PLACEHOLDER: no runtime game systems or Studio scene are implemented yet.
+-- PLACEHOLDER ONLY: no survival game, enemy AI, server radio or Studio map implemented.
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local Config = require(ReplicatedStorage:WaitForChild("Shared"):WaitForChild("Config"))
-print("[SignalLost] Server bootstrap scaffold loaded; version", Config.SessionVersion)
+print("[OperationBlackSky] Server scaffold loaded; version", Config.SessionVersion)

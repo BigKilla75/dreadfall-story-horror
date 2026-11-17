@@ -1,25 +1,20 @@
-## Claude-only canonical game change
-Issue / playable user benefit:
-Observed Claude model (if known):
-Feature branch and base/head SHA:
-Exact affected source files and Studio instances:
-Confirmation no other AI coding agent participated:
-Approved NEW horror place/universe ID or UNKNOWN:
-Rojo integration target and ownership:
-Save-to-Roblox version and UTC or NOT RUN:
-Private .rbxlx backup/hash and verified reopen or NOT RUN:
-Last-known-good Git+Studio tuple:
+## Operation Black Sky — Claude-only canonical Studio game
+Issue and actual player benefit:
+Main/branch HEAD SHA and dirty-files check:
+Confirmed correct NEW independent Roblox universe/place ID (or UNKNOWN):
+Owner-approved servePlaceIds mapping or LOCKED []:
+Exact source files and Studio objects changed:
+Radio script evidence and fictional disclaimer; no BBC branding:
+Rights/provenance/privacy check for any copied assets:
+No original Dreadfall/Feudfall changes; no Codex:
+No public publish, products or payment without owner approval:
 
-## Tests — state PASS/FAIL/NOT RUN and evidence
-Selene lint:
-Python / Luau unit test commands:
-Rojo CLI build (not gameplay):
-Main Studio 1-client spawn/interact/end smoke:
-Main Studio 2-client objective replication and reset:
-Main Studio 4-client regression if co-op affected:
-Wrong-place/duplicate client remote/late-join/death checks:
-Physical mobile/published network tests when relevant:
-Performance, accessibility and asset provenance:
-Known failures/unverified items:
-Recovery and rollback steps:
-Owner approvals needed (public release/products/spending/visibility):
+## Validation — PASS / FAIL / NOT RUN
+Python tests / Selene lint / Rojo build (source-only):
+Real Studio 1-player start-radio-items-ending:
+Real Studio 2-player synchronized objectives:
+Real Studio 4-player late join/death/replay:
+Remote spoof, currency dupes, ATM/shop stock, enemy recovery:
+No-audio and touch/mobile completion:
+Save-to-Roblox version/time; private export path/SHA256/reopen:
+Known blockers, rollback, next atom-sized task:

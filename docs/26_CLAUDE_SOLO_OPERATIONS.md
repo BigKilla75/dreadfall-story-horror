@@ -1,3 +1,5 @@
+> **17 NOV 2026 ACTIVE GAME: OPERATION BLACK SKY.** This generic Claude-only operations/recovery guide remains active, but the old SIGNAL LOST creative master prompt docs/25 has been superseded by docs/34_CLAUDE_BLACK_SKY_MASTER_PROMPT.md. Do not implement old Echo/Relay Nine gameplay. No unattended automation approved.
+
 # 26 — CLAUDE-ONLY EXECUTION, SAFE CONTINUITY, TESTS AND RECOVERY
 **CURRENT AUTHORITY as of 15 November 2026.** This replaces the active dual-agent workflow described historically in docs/18, 19, 21, 23, 24. It does NOT delete those earlier planning records. Read docs/25 for the executable master prompt.
 
