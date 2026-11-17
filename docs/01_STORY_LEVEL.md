@@ -1,3 +1,5 @@
+> **ARCHIVED — 17 NOV 2026:** This is the retired SIGNAL LOST creative/gameplay plan. **DO NOT IMPLEMENT IT.** Current game is OPERATION BLACK SKY. Follow [README](../README.md), [Black Sky master plan](27_OPERATION_BLACK_SKY_MASTER_PLAN.md), and [Claude's active prompt](34_CLAUDE_BLACK_SKY_MASTER_PROMPT.md). Kept intact below for provenance and rollback; all Echo/Relay Nine/Codex tasks superseded.
+
 # 01 — Story, level design, horror direction and 30-minute pacing
 
 All names and narrative beats are **proposals** for owner creative approval, not existing lore.

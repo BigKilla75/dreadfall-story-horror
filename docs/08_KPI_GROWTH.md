@@ -1,3 +1,5 @@
+> **ARCHIVED — 17 NOV 2026:** This is the retired SIGNAL LOST creative/gameplay plan. **DO NOT IMPLEMENT IT.** Current game is OPERATION BLACK SKY. Follow [README](../README.md), [Black Sky master plan](27_OPERATION_BLACK_SKY_MASTER_PLAN.md), and [Claude's active prompt](34_CLAUDE_BLACK_SKY_MASTER_PROMPT.md). Kept intact below for provenance and rollback; all Echo/Relay Nine/Codex tasks superseded.
+
 # 08 — User acquisition, analytics, marketing, and revenue measurement
 
 ## Marketing promise

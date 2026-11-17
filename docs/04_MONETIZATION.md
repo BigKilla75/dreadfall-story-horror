@@ -1,3 +1,5 @@
+> **ARCHIVED — 17 NOV 2026:** This is the retired SIGNAL LOST creative/gameplay plan. **DO NOT IMPLEMENT IT.** Current game is OPERATION BLACK SKY. Follow [README](../README.md), [Black Sky master plan](27_OPERATION_BLACK_SKY_MASTER_PLAN.md), and [Claude's active prompt](34_CLAUDE_BLACK_SKY_MASTER_PROMPT.md). Kept intact below for provenance and rollback; all Echo/Relay Nine/Codex tasks superseded.
+
 # 04 — Revenue strategy, pricing hypotheses and player trust
 
 **Status:** proposal only. NO live Robux sale implemented, approved, or tested. Owner creates game passes/developer products after Roblox experience publish. All pricing here is experimental and requires owner decision.
