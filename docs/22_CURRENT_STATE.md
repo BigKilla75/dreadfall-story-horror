@@ -1,3 +1,46 @@
+# 22 — CURRENT STATE / OPERATION BLACK SKY HANDOFF LEDGER
+Status: GitHub design pivot; 17 November 2026. GitHub evidence only. Canonical Roblox Studio unknown.
+ACTIVE_DESIGN: OPERATION BLACK SKY (UK fictional nationwide blackout survival), not SIGNAL LOST.
+ACTIVE_DEV_AGENT: Claude Opus / Claude Code exclusively; NO Codex, no runner authorised.
+DESTINATION_REPO: BigKilla75/dreadfall-story-horror (public when audited).
+PRE_PIVOT_MAIN: 3543bace2d5fcaf71c41c26bf4d20eb90a45a16a
+MAIN_SHA_AFTER_PIVOT: fill from actual GitHub commit/CI; do not infer or claim until observed
+CURRENT_IMPLEMENTATION: minimal bootstraps and config only; all new Black Sky systems proposed in docs/27–34, none confirmed Studio playable.
+SINGLE_NEW_UNIVERSE_ID: UNKNOWN
+SINGLE_NEW_PLACE_ID: UNKNOWN
+ROJO_LIVE_SYNC: LOCKED (servePlaceIds []), must remain blocked until owner-approved place ID
+STUDIO_SCENE_SAVE/REOPEN: NOT VERIFIED
+PRIVATE_STUDIO_RBXLX_EXPORT/HASH: UNKNOWN
+STUDIO_1_CLIENT: NOT VERIFIED
+STUDIO_2_CLIENT: NOT VERIFIED
+STUDIO_4_CLIENT: NOT VERIFIED
+MOBILE_PHYSICAL_DEVICE: NOT VERIFIED
+IMPORTED_ASSETS: NONE VERIFIED
+MONETIZATION: NO LIVE PRODUCTS APPROVED; LivePurchasesEnabled false
+NEXT_ACTION: Claude verify actual Windows environment + NEW place identity + save/close/reopen; then prove two-client home blackout objective as D1.
+SCOPE_PROTECTION: original Dreadfall BigKilla75/roblox-game READ ONLY and postponed; Feudfall BigKilla75/revengers READ ONLY; Academy separate.
+CRITICAL_DOCS: docs/27–35 and docs/26; old SIGNAL LOST planning docs archived.
+
+## Session evidence — append, never fake
+UTC:
+CLAUDE_MODEL_ACTUALLY_OBSERVED:
+GIT_BRANCH_AND_SHA / DIRTY_FILES:
+NEW_ROBLOX_UNIVERSE/PLACE:
+ISSUE / PLAYER_FACING_CHANGE:
+SOURCE_FILES / SCENE_INSTANCES:
+UNIT + SELENE + ROJO_COMMANDS / EXIT CODES:
+STUDIO_1_CLIENT:
+STUDIO_2_CLIENT:
+STUDIO_4_CLIENT:
+MOBILE:
+SAVE_TO_ROBLOX_VERSION/UTC:
+PRIVATE_EXPORT_PATH/SHA256/REOPEN:
+BUGS_AND_BLOCKERS:
+LAST_VERIFIED_GIT+STUDIO_TUPLE:
+NEXT_ATOMIC_TASK:
+
+---
+## Pre-pivot historical ledger, retained verbatim for continuity
 # 22 — CURRENT_STATE: Claude-only single-game continuity ledger
 
 **Owner change 15 November 2026:** ONLY CLAUDE OPUS / CLAUDE CODE develops SIGNAL LOST. All Codex work and dual-agent rotations cancelled. This is the durable record between **successive Claude sessions**, not cross-agent messaging.
@@ -47,3 +90,4 @@ BLOCKERS / S0/S1:
 ACTUAL VS ESTIMATED PRODUCTIVE HOURS:
 OWNER DECISION REQUIRED (if any):
 SINGLE NEXT ACTION:
+
