@@ -1,3 +1,5 @@
+> **CURRENT OWNER MANDATE — GENRE FLEXIBILITY:** UK blackout contingency guidance must ground the **setting**, not dictate boring simulator mechanics. You are to make a **fun, quick-to-understand, replayable co-op survival/extraction-lite thriller with curated roguelite variation**, per [docs/36](36_GENRE_SELECTION_AND_CORE_LOOP.md), which takes precedence over any slower linear/simulation language below. Build and test the 3–5-minute start-to-finish risk/reward loop before enlarging map or scripting lengthy radio drama. Reward safe choices and co-op; physical extraction is NOT compulsory when staying at home is correct in the fictional scenario. The source/Studio safety, copyright, sole-Claude ownership, owner-gated Robux/public launch, and evidence mandates below remain fully binding.
+
 # CLAUDE OPUS MASTER IMPLEMENTATION PROMPT — OPERATION BLACK SKY
 Owner-directed pivot, 17 November 2026. This file REPLACES docs/25_CLAUDE_MASTER_PROMPT.md as the ACTIVE creative/gameplay mandate; docs/25 is preserved for SIGNAL LOST history. Use highest available Claude Opus thinking level you actually have. Never invent model/version, tool calls or progress.
 

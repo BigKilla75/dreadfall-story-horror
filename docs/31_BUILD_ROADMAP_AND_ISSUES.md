@@ -1,3 +1,5 @@
+> **GENRE PRIORITY UPDATE:** Before implementing complex simulation details, Claude must prove a **complete replayable 3–5-minute prototype of the round loop** (blackout -> item -> fictional radio -> risk decision -> safe result -> restart) inside the SAME saved Studio game, then expand it to 12–22+ minutes if uncoached testers remain engaged. A 7-day private alpha target is ambitious and optional systems get cut before game completion and safety. See [docs/36](36_GENRE_SELECTION_AND_CORE_LOOP.md). The 18–25-minute old duration is a tuning hypothesis, never forced filler.
+
 # 31 — 7-DAY ALPHA / 14-DAY BETA PLAN WITH HARD GATES
 Relative **ACTIVE productive work days**; none of these gates was verified by GitHub planning alone. Owner has requested short development. Do NOT announce public launch date before first playable canonical Studio test.
 

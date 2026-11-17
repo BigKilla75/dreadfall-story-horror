@@ -1,3 +1,5 @@
+> **GENRE IMPLEMENTATION OVERRIDE:** Follow [docs/36](36_GENRE_SELECTION_AND_CORE_LOOP.md): the map is a repeated **risk-and-return arena** with branching safe endings, not an open-world town simulator. Resources, ATM and shop stocks produce quick tradeoffs; they are not a laborious financial economy. First three minutes must be fun, every authored scenario winnable solo, and both safe-home/assistance routes have active player choices. Rewards free and cosmetic only; no real-life advice claims.
+
 # 29 — DETAILED PLAYER SYSTEMS, LEVEL, NPCS, EVENTS, PROGRESSION
 All values are **tuning hypotheses** for private testing, not balanced/implemented mechanics.
 

@@ -1,3 +1,5 @@
+> **Latest creative authority 17 NOV 2026:** [docs/36_GENRE_SELECTION_AND_CORE_LOOP.md](36_GENRE_SELECTION_AND_CORE_LOOP.md) sets **co-op survival/extraction-lite**, UK blackout as setting. This is planning only; no runtime implementation proven.
+
 # 22 — CURRENT STATE / OPERATION BLACK SKY HANDOFF LEDGER
 Status: GitHub design pivot; 17 November 2026. GitHub evidence only. Canonical Roblox Studio unknown.
 ACTIVE_DESIGN: OPERATION BLACK SKY (UK fictional nationwide blackout survival), not SIGNAL LOST.

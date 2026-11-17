@@ -1,3 +1,5 @@
+> **V2 GENRE CLARIFICATION — 17 NOV 2026:** This game's **UK blackout is the realistic premise, not the genre straightjacket**. The active format is **round-based co-op survival/extraction-lite**, supported by simulation details and light thriller tension. Fun, co-play and repeat sessions outrank literal emergency simulation or linear story; UK factual safety references and fictional labels remain mandatory. The authoritative choice, breakdown and micro-loop are in [docs/36_GENRE_SELECTION_AND_CORE_LOOP.md](36_GENRE_SELECTION_AND_CORE_LOOP.md). If earlier sections demand too much realism/long round/exposition, reduce them to protect the responsive 12–22-minute testable loop.
+
 # OPERATION BLACK SKY — AUTHORITATIVE PRODUCT & PRODUCTION BIBLE
 Status: OWNER-DIRECTED DESIGN PIVOT / PLANNED, NOT IMPLEMENTED. Version 1, 17 November 2026.
 This document supersedes the SIGNAL LOST creative plan. Original SIGNAL LOST files 00–21 and 23–25 are retained as HISTORY ONLY. Shared asset/Studio integrity constraints stay binding. Read docs/35 for the formal transition.

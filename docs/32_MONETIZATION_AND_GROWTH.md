@@ -1,3 +1,5 @@
+> **GENRE + GROWTH UPDATE (17 NOV 2026):** The chosen game is **co-op survival extraction-lite** set during a fictional UK blackout, not a tedious realism simulator. Prioritise play-through rate, low first-180-second bounce, co-play, repeat runs and real organic D1/D7 before shopping. Badge/patch and readable scenario-card loop drive FREE retention. Current store prices are hypotheses; no safety or extraction advantages. See [docs/36](36_GENRE_SELECTION_AND_CORE_LOOP.md) and official [Roblox Discovery](https://create.roblox.com/docs/discovery), [Discovery FAQ](https://create.roblox.com/docs/discovery-faq).
+
 # 32 — COMMERCIAL PLAN / EARNINGS / ORGANIC GROWTH
 Status: DESIGN PROPOSAL. No products activated, no sales, no advertising bought, no promised earnings or guaranteed virality.
 

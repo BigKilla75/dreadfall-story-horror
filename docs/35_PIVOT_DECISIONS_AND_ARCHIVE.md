@@ -1,3 +1,5 @@
+> **Owner genre refinement 17 NOV 2026:** Operation Black Sky uses UK blackout risk-planning as inspiration for its WORLD and information system. The definitive gameplay category is **round-based co-op survival/extraction-lite with roguelite replay and a light disaster-thriller atmosphere**, not pure factual simulation, PvP shooter, open-world RP, or linear horror. Full rationale and priority override: [docs/36](36_GENRE_SELECTION_AND_CORE_LOOP.md). The repository remains a non-destructive pivot with historical Signal Lost files preserved.
+
 # 35 — TRANSITION RECORD: SIGNAL LOST -> OPERATION BLACK SKY
 Date: 17 November 2026. Owner asked to create complete new UK blackout game plan and CHANGE GitHub repo accordingly; previous messages had explicitly discussed replacing or making separate game without final selection. **Reversible operational interpretation:** pivot the already existing dedicated story-horror repo to OPERATION BLACK SKY with NO deletion of old story source/docs and NO mutation of original Dreadfall or Feudfall. If owner later chooses a separate repository, contents can be copied without destroying history.
 

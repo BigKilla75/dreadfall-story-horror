@@ -1,4 +1,7 @@
 # OPERATION BLACK SKY — UK Blackout Survival (Roblox)
+
+> **GENRE DECISION 17 NOV 2026:** The real UK blackout is the factual **SETTING**, not a requirement to make a slow simulator. Current gameplay genre: **round-based cooperative survival / extraction-lite thriller** (1–4 players, solo possible). Prioritise an exciting 60-second hook, meaningful supply/info/safety decisions, a full replayable round, and a safe home OR assistance-hub ending. See [docs/36 — definitive genre and replay loop](docs/36_GENRE_SELECTION_AND_CORE_LOOP.md). Not PvP, full simulation, or a linear Echo horror game.
+
 **ACTIVE GAME — 17 November 2026:** OPERATION BLACK SKY, a 1–4-player fictional UK national blackout survival thriller. **STATUS: design plus minimal source scaffold ONLY. No verified Roblox Studio gameplay, map, tested multiplayer, asset imports or live purchases.**
 
 A compact fictional British town. The lights fail. Gather water, food, cash where available, torch, batteries and radio. Hear original fictional emergency broadcasts; avoid occasional opportunistic looters; decide whether it is safer to stay indoors or travel to a confirmed community assistance point. 18–25-minute target first night, curated scenario replay. The original SIGNAL LOST story is superseded but preserved in Git history and older docs. Do not imply this game predicts an actual UK blackout.

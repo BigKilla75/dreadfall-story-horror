@@ -1,3 +1,5 @@
+**OWNER'S LATEST GENRE DIRECTION (17 NOV 2026):** UK blackout realism is WORLD BUILDING, not a mandatory simulation genre. **MAKE A FUN CO-OP SURVIVAL / EXTRACTION-LITE ROGUELITE**: immediate home blackout, fast supply run, radio-driven complication, avoidable human threat, meaningful stay-home/assistance resolution, end-of-round free rewards, replay with curated variant. Read [docs/36_GENRE_SELECTION_AND_CORE_LOOP.md](docs/36_GENRE_SELECTION_AND_CORE_LOOP.md) BEFORE docs/27–35; if older docs sound too literal, linear or tedious, this overrides their gameplay genre. Do not compromise actual emergency-data truthfulness, legal disclaimers or recoverability.
+
 # CLAUDE — OPERATION BLACK SKY (authoritative 17 November 2026)
 **Claude Opus/Claude Code alone** implements and tests the game; no Codex or other AI coder. This repo is now the standalone 1–4-player UK blackout survival thriller OPERATION BLACK SKY. SIGNAL LOST documents/00–21 and 23–25 are HISTORICAL, NOT ACTIVE; do not build the Echo or Relay Nine.
 
